@@ -1,0 +1,20 @@
+version: "3.9"
+
+services:
+  todo-app:
+    image: todo-app
+    container_name: todo-app
+    build: .
+    ports:
+      - ${APP_PORT}:${APP_PORT}
+    networks:
+      - todo-network
+    restart: always
+
+networks:
+  todo-network:
+    driver: bridge
+
+volumes:
+  todo-data:
+    driver: local
