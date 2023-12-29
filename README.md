@@ -63,6 +63,9 @@ $ docker-compose up -d
 $ docker-compose up -d --build
 
 # watch mode
+$ tsc
+
+# watch mode
 $ node dist/index.js
 ```
 
