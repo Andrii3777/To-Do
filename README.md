@@ -62,7 +62,7 @@ $ docker-compose up -d
 # and rebuild images if they have changed
 $ docker-compose up -d --build
 
-# watch mode
+# to compile TypeScript code into equivalent JavaScript code in dist folder
 $ tsc
 
 # watch mode
