@@ -1,3 +1,5 @@
+# <div align="center">ToDo APP</div>
+
 ## Storage Options
 The application supports different storage options for data. This can be configured using the appStorage variable in the code.
 
